@@ -11,5 +11,5 @@ docker run -d \
   --name transmission-rss \
   --restart always \
   -v $(pwd)/transmission-rss.conf:/etc/transmission-rss.conf \
-  quay.io/helloqiu/online-explorer
+  quay.io/helloqiu/transmission-rss-alpine
 ```
